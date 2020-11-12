@@ -44,17 +44,38 @@ li a{
   text-transform: capitalize;
 }
 
+li a.btnpiccolo{
+  background-color: red;
+  padding: 5px 10px;
+  border-radius: 2px;
+  color: white;
+}
+
+li a.btn{
+  background-color: red;
+  padding: 20px 30px;
+  border-radius: 2px;
+  color: white;
+
+
+}
 /* fine regole riciclate */
 
 
 section.sezione-header-top{
   height: 60px;
-  background-color: #b3dff2;
+  background-color: #f4f9fd;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1;
+  line-height: 60px;
+}
 
+li a.btnpiccolo#login{
+  background-color: white;
+  color: #fe775a;
+  border: 1px solid #fe775a;
 }
 
 section.sezione-header-bottom{
@@ -71,10 +92,7 @@ section.sezione-jumbotron{
   background-position: 100% 0%;
 }
 
-
 .header-top{
-  height: 100%;
-  background-color: lightblue;
   border-bottom: 1px solid black;
 }
 
@@ -84,11 +102,18 @@ header .container{
 }
 
 header .container#topsx{
-  background-color: pink;
+  position: relative;
+}
+
+li.barralaterale{
+  margin: 0 10px;
+}
+
+ul.list-style-none li{
+  padding: 0 20px;
 }
 
 header .container#topdx{
-  background-color: yellow;
   text-align: right;
 }
 
@@ -105,13 +130,14 @@ header .container#bottomsx{
   height: 60px;
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
 }
 
 header .container#bottomdx{
   position: relative;
 }
+
 .menu-bottom-dx{
   position: absolute;
   right: 0;
@@ -120,8 +146,6 @@ header .container#bottomdx{
 .menu-bottom-dx li{
   padding: 0 10px;
 }
-
-
 
 .jumbotron{
   height: 100%;
@@ -144,13 +168,12 @@ header .container#bottomdx{
 
 .description p{
   line-height: 1.6;
+  margin: 10px 0;
 }
-
 
 .description li{
   padding: 25px 0;
 }
-
 
 .avanzo{
   height: 50px;
