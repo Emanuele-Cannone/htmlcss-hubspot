@@ -16,8 +16,23 @@ header{
   height: 100%;
   background-color: lightgrey;
   margin: auto;
-
 }
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+
 
 .header-top{
   height: 15%;
@@ -25,14 +40,47 @@ header{
   border-bottom: 1px solid black;
 }
 
+header .container{
+  height: 100%;
+  width: 50%;
+}
+
+header .container#topsx{
+  background-color: pink;
+}
+
+header .container#topdx{
+  background-color: yellow;
+}
+
+
 .header-bottom{
   height: 15%;
   background-color: lightgreen;
 }
 
+header .container#bottomsx{
+  background-color: red;
+}
+
+header .container#bottomdx{
+  background-color: blue;
+}
+
 .jumbotron{
   height: 60%;
   background-color: lightyellow;
+  position: relative;
+}
+
+.jumbotron .description{
+  height: 60%;
+  width: 50%;
+  background-color: brown;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 .avanzo{
