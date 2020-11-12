@@ -3,3 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+header{
+  height: 400px;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+
+
+.header-top{
+  height: 15%;
+  width: 100%;
+  background-color: lightblue;
+  border-bottom: 1px solid black;
+}
+
+.header-bottom{
+  height: 15%;
+  width: 100%;
+  background-color: lightgreen;
+}
+
+.jumbotron{
+  height: 60%;
+  width: 100%;
+  background-color: lightyellow;
+}
+
+.avanzo{
+  height: 10%;
+  width: 100%;
+  background-color: orange;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
