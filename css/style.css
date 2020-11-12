@@ -11,24 +11,27 @@ header{
   background-color: lightgrey;
 }
 
+.width80{
+  width: 80%;
+  height: 100%;
+  background-color: lightgrey;
+  margin: auto;
 
+}
 
 .header-top{
   height: 15%;
-  width: 100%;
   background-color: lightblue;
   border-bottom: 1px solid black;
 }
 
 .header-bottom{
   height: 15%;
-  width: 100%;
   background-color: lightgreen;
 }
 
 .jumbotron{
   height: 60%;
-  width: 100%;
   background-color: lightyellow;
 }
 
