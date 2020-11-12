@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 header{
   height: 400px;
   width: 100%;
@@ -32,10 +31,29 @@ header{
   float: right;
 }
 
+.list-style-none{
+  list-style: none;
+}
 
+ul li{
+  display: inline-block;
+}
+
+/* fine regole riciclate */
+
+
+section.sezione-header-top{
+  height: 15%;
+  background-color: orange;
+}
+
+section.sezione-header-bottom{
+  height: 15%;
+  background-color: violet;
+}
 
 .header-top{
-  height: 15%;
+  height: 100%;
   background-color: lightblue;
   border-bottom: 1px solid black;
 }
@@ -51,16 +69,25 @@ header .container#topsx{
 
 header .container#topdx{
   background-color: yellow;
+  text-align: right;
 }
 
-
 .header-bottom{
-  height: 15%;
+  height: 100%;
   background-color: lightgreen;
 }
 
 header .container#bottomsx{
   background-color: red;
+  position: relative;
+}
+
+.container#bottomsx .logosito{
+  background-image: url('../img/logo.svg');
+  background-size: 15%;
+  height: 100%;
+  background-repeat: no-repeat;
+  padding-top: 10px;
 }
 
 header .container#bottomdx{
