@@ -38,6 +38,12 @@ ul li{
   display: inline-block;
 }
 
+li a{
+  color: #33475b;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
 /* fine regole riciclate */
 
 
@@ -48,6 +54,7 @@ section.sezione-header-top{
   width: 100%;
   top: 0;
   z-index: 1;
+
 }
 
 section.sezione-header-bottom{
@@ -61,7 +68,7 @@ section.sezione-jumbotron{
   background-image: url('../img/jumbotron.png');
   background-size: 72%;
   background-repeat: no-repeat;
-  background-position: 100% -13%;
+  background-position: 100% 0%;
 }
 
 
@@ -69,7 +76,6 @@ section.sezione-jumbotron{
   height: 100%;
   background-color: lightblue;
   border-bottom: 1px solid black;
-
 }
 
 header .container{
@@ -88,23 +94,31 @@ header .container#topdx{
 
 .header-bottom{
   height: 100%;
+  line-height: 60px;
 }
 
 header .container#bottomsx{
-  background-color: red;
   position: relative;
 }
 
 .container#bottomsx .logosito{
-  background-image: url('../img/logo.svg');
-  background-size: 15%;
-  height: 100%;
-  background-repeat: no-repeat;
-  padding-top: 10px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 header .container#bottomdx{
-  background-color: blue;
+  position: relative;
+}
+.menu-bottom-dx{
+  position: absolute;
+  right: 0;
+}
+
+.menu-bottom-dx li{
+  padding: 0 10px;
 }
 
 
@@ -139,7 +153,7 @@ header .container#bottomdx{
 
 
 .avanzo{
-  height: 15%;
+  height: 50px;
   width: 100%;
   background-color: #afebe4;
   border-top: 1px solid #6698b1;
