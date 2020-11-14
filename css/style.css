@@ -3,3 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.width70{
+  /* fai con il calc il calcolo in pixel della perecentuale */
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+/* DAI LE MISURE IN PIXEL E NON IN % */
