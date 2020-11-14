@@ -4,8 +4,18 @@
   box-sizing: border-box;
 }
 
+body{
+  color: #33475b;
+  font-family: 'Roboto', sans-serif;
+}
+
 .width70{
-  /* fai con il calc il calcolo in pixel della perecentuale */
+  width: 1000px;
+  margin: auto;
+}
+
+.width50{
+  width:50%;
 }
 
 .float-left{
@@ -16,11 +26,192 @@
   float: right;
 }
 
+.bordosfumato{
+  border-radius: 2px;
+}
+
 .clearfix::after{
   content: '';
   display: table;
   clear: both;
 }
 
+li.color a{
+  color: white;
+}
+
+.btn{
+  background-color: #fe775a;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.big{
+  padding: 20px;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.font300{
+  font-weight: 300;
+}
+
+/* -------
+ fine regole generali
+   ------- */
 
 /* DAI LE MISURE IN PIXEL E NON IN % */
+
+
+header{
+  width: 100vw;
+  position: relative;
+  background: linear-gradient(to top, #fff8ef, #fff1ee);
+}
+
+/* header-top */
+
+.header-top{
+  background-color: #f4f9fd;
+  border-bottom: 2px solid #32495b;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.header-top a , .header-bottom a{
+  text-decoration: none;
+  color: #33475b;
+}
+
+.box-dx , .menu-header-bottom-dx{
+  text-align: right;
+}
+
+.menu-header-top{
+  line-height: 75px;
+}
+
+.header-top .menu-header-top li , .header-bottom .menu-header-bottom-dx li, .description li{
+  display: inline-block;
+  text-transform: capitalize;
+  list-style: none;
+  padding-left: 10px;
+}
+
+ul.menu-header-top li:nth-child(even){
+  padding: 0 10px;
+}
+
+/* /header-top */
+
+/* header-bottom */
+
+.header-bottom{
+  height: 75px;
+  background-color: white;
+  margin-top: 75px;
+}
+
+.logosito{
+  height: 75px;
+  position: relative;
+}
+
+img.centratura{
+  top: 50%;
+  left: 0%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.menu-header-bottom-dx ul{
+  text-align: right;
+  line-height: 75px;
+}
+
+.menu-header-bottom-dx i{
+  padding-left: 5px;
+}
+
+/* /header-bottom */
+
+/* jumbotron */
+
+.jumbotron{
+  background-image: url('../img/jumbotron.png');
+  height: 680px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.descrizione-jumbotron h1{
+  font-size: 50px;
+  padding-top: 100px;
+}
+
+.descrizione-jumbotron div{
+  padding: 20px 0;
+}
+
+.description li{
+  padding-left: 0;
+}
+
+.descrizione-jumbotron ul{
+  padding: 30px 0;
+}
+
+.riga{
+  height: 82px;
+  width: 500px;
+  background-color: #9defe5;
+  position: absolute;
+  bottom: 0%;
+  border-top: 3px solid #2f465d;
+  border-bottom: 3px solid #2f465d;
+  margin-bottom: 1px;
+}
+
+/* /jumbotron */
+
+
+main{
+  height: 1000px;
+}
+
+/* section powerful */
+.powerful{
+  padding-top: 20px;
+  background-color: #f4f9fd;
+  text-align: center;
+}
+
+.img-cubo{
+  position: relative;
+  height: 230px;
+}
+
+.powerful .img-cubo img.centratura-cubo{
+  height: 200px;
+  left: 50%;
+  top: 0%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.descrizione-cubo{
+  font-size: 40px;
+}
+
+.powerful p{
+  padding: 30px 0;
+}

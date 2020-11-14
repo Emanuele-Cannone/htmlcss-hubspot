@@ -5,49 +5,141 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
   <header>
 
-    <!-- headertop inizio linea azzurra che rimane fissata
-      div width70 con larghezza ridotta clearfix
-        div sinistro float-left con ul scelta lingua
-        div destro float-left con bottoni
-      /div width70 con larghezza ridotta
-    /headertop linea azzurra che rimane fissata - inserisci il border-bottom -->
+    <!-- headertop inizio linea azzurra che rimane fissata -->
+    <div class="header-top">
 
-    <!-- headerbottom inizio linea bianca
-      div width70 con larghezza ridotta clearfix
-        div sinistro float-left con logo
-        div destro float-right con ul menu (nav)
-      /div width con larghezza ridotta
-    /headerbottom linea bianca che rimane fissata -->
+      <!-- div width70 con larghezza ridotta clearfix -->
+      <div class="width70 clearfix">
 
-    <!-- inizio jumbotron con immagine di sfondo e parte mancante della foto
-      div width70 descrizione-jumbotron con testo e bottone
-    /jumbotron -->
+        <!-- div sinistro float-left con ul scelta lingua -->
+        <div class="box-sx float-left width50 scelta-lingua">
+          <ul class="menu-header-top" id="sx">
+            <li><i class="fas fa-globe-europe"></i> english <a href="#"><i class="fas fa-chevron-down"></i></a></li>
+            <li>|</li>
+            <li><a href="#">contact us</a></li>
+          </ul>
+        </div>
 
+        <!-- div destro float-left con bottoni -->
+        <div class="box-dx search float-left width50 ">
+          <ul class="menu-header-top" id="dx">
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
+            <li><a href="#">login</a></li>
+            <li class="color"><a class="btn" href="#">gethubspotfree</a></li>
+          </ul>
+        </div>
+      <!-- /div width70 con larghezza ridotta -->
+      </div>
+
+    </div>
+    <!-- /headertop linea azzurra che rimane fissata - inserisci il border-bottom -->
+
+
+    <!-- headerbottom inizio linea bianca -->
+    <div class="header-bottom">
+
+
+      <!-- div width70 con larghezza ridotta clearfix -->
+      <div class="width70 clearfix">
+
+        <!-- div sinistro float-left con logo -->
+        <div class="logosito width50 float-left">
+            <img class="centratura" src="img/logo.svg" alt="logosito">
+        </div>
+        <div class="menu-header-bottom-dx width50 float-left">
+          <ul>
+            <li>software<a href="#"><i class="fas fa-chevron-down"></i></a></li>
+            <li>pricing<a href="#"></a></li>
+            <li>resources<a href="#"><i class="fas fa-chevron-down"></i></a></li>
+            <li>partners<a href="#"><i class="fas fa-chevron-down"></i></a></li>
+            <li>about<a href="#"><i class="fas fa-chevron-down"></i></a></li>
+
+          </ul>
+
+        </div>
+        <!-- div destro float-right con ul menu (nav) -->
+
+
+      </div>
+      <!-- /div width con larghezza ridotta -->
+
+
+
+    </div>
+    <!-- /headerbottom linea bianca che rimane fissata -->
+
+    <!-- inizio jumbotron con immagine di sfondo e parte mancante della foto -->
+    <div class="jumbotron">
+
+
+      <!-- div width70 descrizione-jumbotron con testo e bottone -->
+      <div class="descrizione-jumbotron width70 clearfix">
+        <div class="description float-left width50">
+          <h1><span class="capitalize">there's</span> a better way to grow.</h1>
+          <div class="font300"><span class="capitalize">marketing</span>, sales, and service software that helps your business grow without compromise. <span>because</span> "good for the business" should also mean "good for the costumer."</div>
+          <ul>
+            <li class="color"><a class="btn big" href="#">gethubspotfree</a></li>
+          </ul>
+          <div class="font300">get started with <span>free</span> tools, and upgrade as you grow.</div>
+        </div>
+
+
+      </div>
+
+      <!-- /jumbotron -->
+    </div>
+
+    <!-- div riga verde con border top e bottom -->
+    <div class="riga"></div>
+    <!-- /div riga verde con border top e bottom -->
   </header>
   <main>
 
-    <!-- sectionbarra linea verde con border top e bottom
-    /sectionbarra linea verde con border top e bottom -->
 
 
-    <!-- sectionpowerful con sfondo azzurro
-      div img.cubo width70 centrato
-        h3 titolo-cubo
-        p descrizione-cubo
-      /div
-    /sectionpowerful con sfondo azzurro -->
+    <!-- sectionpowerful con sfondo azzurro -->
+    <section class="powerful">
 
-    <!-- sectionfree-hubspot con sfondo azzurro
+      <!-- div img.cubo width70 centrato -->
+      <div class="img-cubo">
+        <img class="centratura-cubo" src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/2018/Integrations_Illustration@2x.png" alt="img-cubo">
+      </div>
+      <h3 class="capitalize descrizione-cubo">powerful alone. better together</h3>
+      <p class="width70 font300">HubSpot offers a full stack of software for marketing, sales, and costumer service, with a completly free <span class="uppercase">crm</span> article at its core. they're powerful alone - but even better when used together</p>
+      <!-- /div> -->
+
+    </section>
+    <!-- /sectionpowerful con sfondo azzurro -->
+
+    <!-- sectionfree-hubspot con sfondo azzurro -->
+    <section class="free-hubspot" >
+
+
       div width70 clearfix con sfondo bianco
-        div float-left con img.libro e bottone /div
-        div float-right con form-libro /div
-      /div
-    /sectionfree-hubspot -->
+      <div class="width70 clearfix">
+
+        <!-- div float-left con img.libro e bottone /div -->
+        <div class="float-left">
+          img.libro e bottone
+        </div>
+        <!-- div float-right con form-libro /div -->
+        <div class="float-right">
+          form-libro
+        </div>
+
+      </div>
+      <!-- /div -->
+
+    </section>
+    <!-- /sectionfree-hubspot -->
 
     <!-- sectioncolonne con sfondo azzurro
       div width70 clearfix
@@ -100,7 +192,7 @@
       /div width70 clearfix
     /sectionclienti con sfondo bianco -->
 
-    sectionterms con sfondo blu
+    <!-- sectionterms con sfondo blu -->
       <!-- div width70
         div first-term float left
           ul-increase
@@ -141,14 +233,15 @@
             li normale
             li normale
             li bottone
-            li social( prova ad inserire tutte le immagini e vedi quello che succede)
+            li social contiene 5 i(font awesome) ma deve avere l'inline block e la spaziatura( prova ad inserire tutte le immagini e vedi quello che succede)
           /ul-increase
         /div quarter-term float left
       /div width70
     /sectionterms con sfondo blu -->
 
   </main>
-  <footer> inserisci lo sfondo blu direttamente qui
+  <footer>
+    <!-- inserisci lo sfondo blu direttamente qui -->
     <!-- div width70
       div footer-up
         hr
