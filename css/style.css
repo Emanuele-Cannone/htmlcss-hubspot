@@ -50,6 +50,10 @@ li.color a{
   padding: 20px;
 }
 
+.mid{
+  padding: 15px;
+}
+
 .capitalize{
   text-transform: capitalize;
 }
@@ -61,6 +65,7 @@ li.color a{
 .font300{
   font-weight: 300;
 }
+
 
 /* -------
  fine regole generali
@@ -100,11 +105,15 @@ header{
   line-height: 75px;
 }
 
-.header-top .menu-header-top li , .header-bottom .menu-header-bottom-dx li, .description li{
+.header-top .menu-header-top li , .header-bottom .menu-header-bottom-dx li, .description li, section.free-hubspot li{
   display: inline-block;
   text-transform: capitalize;
   list-style: none;
   padding-left: 10px;
+}
+
+.header-top .menu-header-top#sx li:first-child{
+  padding-left: 0;
 }
 
 ul.menu-header-top li:nth-child(even){
@@ -185,7 +194,7 @@ img.centratura{
 
 
 main{
-  height: 1000px;
+  height: 1500px;
 }
 
 /* section powerful */
@@ -215,3 +224,77 @@ main{
 .powerful p{
   padding: 30px 0;
 }
+
+/* section free-hubspot */
+
+.free-hubspot{
+  background-color: #f4f9fd;
+}
+
+.logo-libro{
+  margin-bottom: 30px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.riquadro-bianco{
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px #cccfd2;
+  border-radius: 5px;
+}
+
+.primacolonna{
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.secondacolonna{
+  width: 698px;
+  height: 300px;
+  position: relative
+}
+
+.position-down{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centratura-seconda-colonna span i{
+  padding-right: 5px;
+  color: #fe775a;
+}
+
+.centratura span{
+  margin-right: 10px;
+}
+
+.centratura-seconda-colonna{
+  width: 80%;
+  position: absolute;
+}
+
+.centratura-seconda-colonna h3, .centratura-seconda-colonna p, .centratura-seconda-colonna h4, .centratura-seconda-colonna span{
+  margin: 40px 0;
+}
+
+.centratura h4{
+  display: inline-block;
+}
+
+hr.dimensionamento{
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+span.capitalize:nth-child(2){
+  display: block;
+}
+
+
+/* /section free-hubspot */
