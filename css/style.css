@@ -10,18 +10,21 @@ body{
 }
 
 .width20{
-  width: 285px;
+  width: 20%;
 }
 
 .width70{
-  width: 1000px;
+  width: 70%;
   margin: auto;
 }
 
 .width50{
-  width: 500px;
+  width: 50%;
 }
 
+.width100{
+  width: 100%;
+}
 
 .width-ridotta{
   width: 180px;
@@ -103,7 +106,6 @@ header{
   position: fixed;
   top: 0;
   z-index: 1;
-  width: 1000px;
 }
 
 .header-top a , .header-bottom a{
@@ -501,7 +503,7 @@ section.clienti .width70{
 }
 
 .immagine-cinese img{
-  height: 400px;
+  width: 100%;
 }
 
 /* /sectionclienti */
