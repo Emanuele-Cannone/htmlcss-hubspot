@@ -89,7 +89,7 @@ li.color a{
 
 
 header{
-  width: 100vw;
+  width: 100%;
   position: relative;
   background: linear-gradient(to top, #fff8ef, #fff1ee);
 }
