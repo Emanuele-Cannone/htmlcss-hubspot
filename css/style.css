@@ -10,7 +10,7 @@ body{
 }
 
 .width20{
-  width:20%;
+  width: 285px;
 }
 
 .width70{
@@ -19,8 +19,9 @@ body{
 }
 
 .width50{
-  width:50%;
+  width: 500px;
 }
+
 
 .width-ridotta{
   width: 180px;
@@ -89,7 +90,6 @@ li.color a{
 
 
 header{
-  width: 100%;
   position: relative;
   background: linear-gradient(to top, #fff8ef, #fff1ee);
 }
@@ -103,7 +103,7 @@ header{
   position: fixed;
   top: 0;
   z-index: 1;
-  width: 100%;
+  width: 1000px;
 }
 
 .header-top a , .header-bottom a{
