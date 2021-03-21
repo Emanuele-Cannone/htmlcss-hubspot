@@ -481,6 +481,10 @@ section.clienti .width70{
   width: 100px;
 }
 
+.clienti-down{
+  margin-top: 45px;
+}
+
 .descrizione-cinese{
   height: 400px;
   position: relative;
@@ -503,7 +507,8 @@ section.clienti .width70{
 }
 
 .immagine-cinese img{
-  width: 100%;
+  width: 60%;
+  margin-bottom: 40px;
 }
 
 /* /sectionclienti */
@@ -576,6 +581,7 @@ ul.languages{
   color: #dadee0;
   display: inline-block;
   list-style: none;
+  text-transform: capitalize;
 }
 
 .footer-up hr{
@@ -604,5 +610,9 @@ ul.policy li{
   text-transform: capitalize;
 }
 
+
+.footer-down {
+  padding-bottom: 40px;
+}
 
 /* /footer */
